@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.59">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/images/xiaotupo-logo.svg"><title> | ESP32 开发笔记 - 小土坡</title><meta name="description" content="这是我的私人 ESP32 笔记站点。">
+    <link rel="preload" href="/esp32/assets/style-786c50bf.css" as="style"><link rel="stylesheet" href="/esp32/assets/style-786c50bf.css">
+    <link rel="modulepreload" href="/esp32/assets/app-f36e6f56.js"><link rel="modulepreload" href="/esp32/assets/framework-96b046e1.js"><link rel="modulepreload" href="/esp32/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/esp32/assets/404.html-46166703.js"><link rel="prefetch" href="/esp32/assets/index.html-d5ea425a.js" as="script"><link rel="prefetch" href="/esp32/assets/index.html-0548dea9.js" as="script"><link rel="prefetch" href="/esp32/assets/我的ESP32开发板.html-9c180fd5.js" as="script"><link rel="prefetch" href="/esp32/assets/index.html-421116f5.js" as="script"><link rel="prefetch" href="/esp32/assets/index.html-94fbc730.js" as="script"><link rel="prefetch" href="/esp32/assets/我的ESP32开发板.html-6b9421fd.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/esp32/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/esp32/assets/app-f36e6f56.js" defer></script>
+  </body>
+</html>
